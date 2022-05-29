@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font awesome 5/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+
+                <ul>
+                    <li><a href="index.html">Homes</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars harmburger" onclick="showMenu()" id="harmburger"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-----about us content------>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>we are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dicta. Accusantium repellat, dignissimos quae facere cum mollitia recusandae nobis sapiente consequatur voluptatibus unde laborum? Eaque unde saepe illo iste nulla. Lorem ipsum,
+                    dolor sit amet consectetur adipisicing elit. Distinctio numquam ratione tempora. Harum unde dolorum deserunt reiciendis vel, sint nobis, distinctio sequi tenetur natus esse? Nemo molestias aspernatur odit magnam?</p>
+                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-----Footer------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Turn your passion for technology into a future-focused carrer <br>that could take you any where.</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Made With <i class="fas fa-heart"></i> Wasco concept</p>
+    </section>
+
+
+
+
+    <!------javascript for toggle menu--------->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+</body>
+
+</html>
